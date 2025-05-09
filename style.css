@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(135deg, #fefcea, #f1da36);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: #ffffffdd;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #444;
+}
+.input__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.contact__input {
+  flex: 1 1 45%;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+.contact__input:focus {
+  border-color: #1976d2;
+  background-color: #eef4ff;
+}
+.contact__btn {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin: 0 auto 30px;
+  display: block;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+.contact__btn:hover {
+  background-color: #115293;
+}
+.contact__btn:active {
+  transform: scale(0.96);
+}
+.contact__item {
+  background-color: #fffbe6;
+  border: 1px solid #ddd;
+  padding: 14px 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.contact__name {
+  font-size: 18px;
+  font-weight: 600;
+}
+.contact__tel, .contact__email {
+  font-size: 14px;
+  color: #555;
+}
+.contact-btn__box button {
+  margin-left: 10px;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.contact-edit__btn {
+  background-color: #4caf50;
+  color: white;
+}
+.contact-edit__btn:hover {
+  background-color: #3c8c41;
+}
+.contact-del__btn {
+  background-color: #f44336;
+  color: white;
+}
+.contact-del__btn:hover {
+  background-color: #c62828;
+}

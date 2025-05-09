@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакти</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/color/512/apple-contacts.png"
+      type="image/x-icon"
+    /> -->
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="contact__title">Контакти</h1>
+      <div class="input__container">
+        <input
+          type="text"
+          class="contact__input tag"
+          placeholder="Ім'я"
+          required
+          tag
+        />
+        <input
+          type="text"
+          class="contact__input surname"
+          placeholder="Прізвище"
+          surname
+        />
+        <input
+          type="text"
+          class="contact__input tel"
+          placeholder="Телефон"
+          required
+          tel
+        />
+        <input
+          type="text"
+          class="contact__input email"
+          placeholder="Пошта"
+          email
+        />
+      </div>
+      <button type="submit" class="contact__btn" submit>Зберегти</button>
+      <ul class="contact__list" contactList></ul>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
